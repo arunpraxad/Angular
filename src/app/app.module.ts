@@ -3,10 +3,14 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { CreditCardModule } from './credit-card/credit-card.module';
 import { AppComponent } from './app.component';
+import { HighlightDirective } from './credit-card/credit-card.directive';
+import { TitleComponent } from './title/title.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HighlightDirective,
+    TitleComponent
   ],
   imports: [
     BrowserModule,

@@ -15,7 +15,9 @@ import { CreditCardMaskPipe } from '../credit-card/credit-card.pipe';
     declarations: [
         CreditCardComponent
     ],
-    exports: [CreditCardComponent]
+    exports: [
+        CreditCardComponent
+    ]
 })
 
 export class CreditCardModule { }
