@@ -16,9 +16,6 @@ import { AppComponent } from './app.component';
   schemas: [
       CUSTOM_ELEMENTS_SCHEMA
   ],
-  exports: [
-    CreditCardModule
-  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
